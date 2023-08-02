@@ -1,4 +1,6 @@
-{% extends 'base.html' %} {% block title %}Home Page{% endblock%} 
-{% block content %}
-<h1>This is home page.</h1>
+{% extends 'base.html' %} {% block title %}Home Page{% endblock%} {% block
+content %}
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  {% for i in  %}{% endfor %}
+</div>
 {% endblock%}
